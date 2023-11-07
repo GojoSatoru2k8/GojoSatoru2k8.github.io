@@ -1,0 +1,50 @@
+body {
+    background: #FFA17F;
+    background: -webkit-linear-gradient(to right, rgb(64, 1, 157), rgb(35, 190, 211));
+    background: linear-gradient(to right, rgba(93, 6, 223, 0.902), rgb(7, 202, 236));
+}
+
+
+.container {
+    margin-top: 15%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.dong_ho_dien_tu {
+    font-size: 40px;
+    /* Tăng cỡ chữ */
+    ;
+    font-weight: bold;
+    font-family: 'Arial';
+    color: rgb(0, 0, 0)
+}
+
+.thoi_gian {
+    font-size: 100px;
+    /* Tăng cỡ chữ */
+    ;
+    font-weight: bold;
+    font-family: 'Arial';
+    color: #f20c96;
+}
+
+.thanh_nut {
+    display: flex;
+    gap: 20px;
+}
+
+.thanh_nut button {
+    border-radius: 20px;
+    width: fit-content;
+    height: 40px;
+
+    font-size: 20px;
+    /* Tăng cỡ chữ */
+    ;
+    font-weight: bold;
+    font-family: 'Arial';
+}
